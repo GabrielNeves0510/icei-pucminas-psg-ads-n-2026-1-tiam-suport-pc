@@ -121,7 +121,7 @@ Dono de assistência técnica que deseja aumentar sua visibilidade e organizar m
 
 ## Diagrama de Casos de Uso
 
-![Texto alternativo](docs/img/Diagrama_Caso_uso.png)
+![Texto alternativo](img/Diagrama_Caso_uso.png)
 
 ---
 
