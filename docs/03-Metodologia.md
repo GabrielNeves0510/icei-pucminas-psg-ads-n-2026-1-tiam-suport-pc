@@ -1,87 +1,108 @@
-
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+## Metodologia de Trabalho
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+O desenvolvimento do projeto será conduzido utilizando a metodologia ágil Scrum, que permite maior flexibilidade, organização e adaptação ao longo do processo.
+
+A equipe trabalhará com ciclos curtos (sprints semanais), nos quais serão realizadas atividades como planejamento, desenvolvimento, testes e revisão. Essa abordagem possibilita acompanhamento contínuo da evolução do sistema, além de facilitar a identificação e correção de problemas.
+
+O foco da equipe será a entrega incremental das funcionalidades, garantindo que o sistema evolua de forma organizada e alinhada com os requisitos definidos.
+
+---
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Os artefatos do projeto serão desenvolvidos utilizando diferentes ambientes e plataformas, conforme apresentado na tabela abaixo:
+
+| Ambiente                 | Plataforma         | Link de Acesso                |
+| ------------------------ | ------------------ | ----------------------------- |
+| Desenvolvimento Mobile   | React Native       | https://reactnative.dev       |
+| Editor de Código         | Visual Studio Code | https://code.visualstudio.com |
+| Versionamento            | GitHub             | https://github.com            |
+| Design de Interface      | Figma              | https://figma.com             |
+| Gerenciamento de Tarefas | Trello             | https://trello.com            |
+| Comunicação              | WhatsApp           | -                             |
+
+Esses ambientes foram escolhidos por sua ampla utilização no mercado, facilidade de integração e suporte ao desenvolvimento de aplicações mobile.
+
+---
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+O projeto utilizará o Git como ferramenta de controle de versão, com o GitHub sendo utilizado para hospedagem do repositório e gerenciamento do código fonte.
 
-O projeto segue a seguinte convenção para o nome de branches:
+### Convenção de Branches
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+* **main:** versão estável do sistema
+* **dev:** versão em desenvolvimento
+* **testing:** versão em testes
+* **unstable:** versão instável
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+### Gerenciamento de Commits e Merges
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+* Os commits serão realizados de forma frequente e com descrições claras das alterações realizadas
+* O desenvolvimento ocorrerá principalmente na branch **dev**
+* Após testes e validações, as alterações serão integradas à branch **main**
+* Os merges serão realizados de forma controlada, evitando conflitos e garantindo estabilidade
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+### Gerenciamento de Issues
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+Para organização das tarefas, serão utilizadas issues no GitHub com as seguintes etiquetas:
+
+* **documentation:** melhorias ou atualizações na documentação
+* **bug:** correção de erros no sistema
+* **enhancement:** melhorias em funcionalidades existentes
+* **feature:** desenvolvimento de novas funcionalidades
+
+Essa organização permite melhor controle das atividades e acompanhamento do progresso do projeto.
+
+---
 
 ## Gerenciamento de Projeto
 
-### Divisão de Papéis
+O gerenciamento do projeto será baseado nos princípios do PMBOK, considerando áreas como escopo, tempo, custo, qualidade, comunicação e riscos.
 
-Apresente a divisão de papéis entre os membros do grupo.
+O projeto será planejado de forma a manter equilíbrio entre as atividades, garantindo que o desenvolvimento ocorra dentro do prazo e com qualidade adequada.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+---
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+## Divisão de Papéis
 
-### Processo
+A equipe será organizada de acordo com os papéis definidos na metodologia Scrum:
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+* **Scrum Master:** responsável por organizar as atividades e garantir o andamento do projeto
+* **Product Owner:** responsável por definir requisitos e prioridades
+* **Equipe de Desenvolvimento:** responsável pela implementação do sistema
+* **Responsável pelo Design:** responsável pela interface e experiência do usuário
 
-### Ferramentas
+---
 
-As ferramentas empregadas no projeto são:
+## Processo
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+O processo de desenvolvimento seguirá o modelo Scrum, utilizando um quadro de tarefas (Kanban) para organização das atividades.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+As tarefas serão distribuídas nas seguintes etapas:
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+* Backlog (tarefas pendentes)
+* Em desenvolvimento
+* Em teste
+* Concluído
+
+O acompanhamento será realizado através do Trello e GitHub, permitindo visualizar o andamento das tarefas e o status do projeto em tempo real.
+
+---
+
+## Ferramentas
+
+As ferramentas utilizadas no desenvolvimento do projeto são:
+
+* **Editor de código:** Visual Studio Code
+* **Framework de desenvolvimento:** React Native
+* **Controle de versão:** Git e GitHub
+* **Design de interface:** Figma
+* **Gerenciamento de tarefas:** Trello
+* **Comunicação:** WhatsApp
+
+As ferramentas foram escolhidas por sua eficiência, integração e ampla utilização no mercado, contribuindo para a organização e desenvolvimento do projeto.
+
+---
