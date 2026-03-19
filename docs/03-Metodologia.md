@@ -70,10 +70,9 @@ O projeto será planejado de forma a manter equilíbrio entre as atividades, gar
 
 A equipe será organizada de acordo com os papéis definidos na metodologia Scrum:
 
-* **Scrum Master:** responsável por organizar as atividades e garantir o andamento do projeto
-* **Product Owner:** responsável por definir requisitos e prioridades
-* **Equipe de Desenvolvimento:** responsável pela implementação do sistema
-* **Responsável pelo Design:** responsável pela interface e experiência do usuário
+* **Scrum Master:** responsável por organizar as atividades e garantir o andamento do projeto -Rafael Bianchini Werneck Fragoso
+* **Product Owner:** responsável por definir requisitos e prioridades -Gabriel Neves Fonseca
+* **Equipe de Desenvolvimento:** responsável pela implementação do sistema -Samuel,Victor,Rafael,Augusto,Gabriel.
 
 ---
 
