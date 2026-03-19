@@ -37,8 +37,8 @@ Possui pouco conhecimento técnico e enfrenta dificuldades para encontrar assist
 
 ### Persona 2 – Técnico
 
-**Nome:** João Marcelo
-**Idade:** 35 anos
+**Nome:** Eduardo Costa Moreira
+**Idade:** 51 anos
 **Profissão:** Técnico em eletrônicos
 
 **Descrição:**
@@ -121,7 +121,7 @@ Dono de assistência técnica que deseja aumentar sua visibilidade e organizar m
 
 ## Diagrama de Casos de Uso
 
-![Diagrama de Casos de Uso](../img/diagrama.png)
+docs/img/Diagrama_Caso_uso.png
 
 ---
 
